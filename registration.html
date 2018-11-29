@@ -34,7 +34,7 @@
 				font-family: 'BMHANNA_11yrs';
 				src: url(fonts/BMHANNA_11yrs_ttf.ttf) format('truetype');
 			}
-			.title, h2, h3 {
+			.title, h2, h3, .stack-table-name {
 				/*font-family: 'Jeju Gothic', sans-serif;*/
 				font-family: 'BMHANNA_11yrs', sans-serif;
 			}
@@ -73,10 +73,10 @@
 				<nav class="menu">
 					<ul>
 						<li><a href="index.html">홈</a></li>
-						<li class="active"><a href="#">소개</a></li>
+						<li><a href="#">소개</a></li>
 						<li><a href="program.html">프로그램</a></li>
 						<li><a href="portfolio.html">포트폴리오</a></li>
-						<li><a href="registration.html">지원하기</a></li>
+						<li class="active"><a href="registration.html">지원하기</a></li>
 						<li><a href="contact.html">문의하기</a></li>
 					</ul>
 				</nav>
@@ -107,10 +107,10 @@
 					<nav class="col-md-6 hidden-sm hidden-xs default-menu text-center">
 						<ul>
 							<li><a href="index.html">홈</a></li>
-							<li class="active"><a href="#">소개</a></li>
+							<li><a href="#">소개</a></li>
 							<li><a href="program.html">프로그램</a></li>
 							<li><a href="portfolio.html">포트폴리오</a></li>
-							<li><a href="registration.html">지원하기</a></li>
+							<li class="active"><a href="registration.html">지원하기</a></li>
 							<li><a href="contact.html">문의하기</a></li>
 						</ul>
 					</nav>
@@ -133,166 +133,115 @@
 		</header>
 		<!-- /.header.sticky.light -->
 	
-
 		<!-- .section -->
 		<section class="section">
 			<div class="container">
-				<div class="section-header large-title text-center">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2">
-							<img src="images/logo.png" alt="90factory logo" /><br/><br/>
-							<h2 class="maintitle">구공팩토리</h2>
-							<h3 class="subtitle">당신은 당신의 생각을 코드로 만들 권리가 있습니다.</h3>
-							
-							<p>구공팩토리는 90일 동안 진행하는 개발 프로젝트입니다. 하지만 구공팩토리는 `개발 기술`을 가르치지 않습니다. 
-스스로 고민하고, 학습하고, 협업하는 방법을 공유합니다. 구공팩토리는 전 국민이 개발하는 그날까지 가동됩니다.</p>
-						</div>
-					</div>
-					
-					<div class="divider type-1"></div>
+				<div class="section-header">
+					<h2 class="maintitle has-divider">구공팩토리 1기 모집 요강</h2>
 				</div>
-				
-				<!-- .row.action-list -->
-				<ul data-animate class="row list-unstyled action-list inline-type-2 bottom-space" role="tablist">
-					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim active">
-						<a class="tab secondary-headline has-icon corner-anim" href="#concept" aria-controls="concept" role="tab" data-toggle="tab">
-							<i class="fi flaticon-cup"></i>
-							<h3 class="maintitle">Make a <strong>concept</strong></h3>
-							<p class="subtitle">Create modern design</p>
-							
-							<span class="corner corner-1"></span>
-							<span class="corner corner-2"></span>
-						</a>
-					</li>
-					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim">
-						<a class="tab secondary-headline has-icon" href="#prototype" aria-controls="prototype" role="tab" data-toggle="tab">
-							<i class="fi flaticon-arrows"></i>
-							<h3 class="maintitle">Create <strong>prototype</strong></h3>
-							<p class="subtitle">Implementing concept</p>
-							
-							<span class="corner corner-1"></span>
-							<span class="corner corner-2"></span>
-						</a>
-					</li>
-					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim">
-						<a class="tab secondary-headline has-icon" href="#development" aria-controls="development" role="tab" data-toggle="tab">
-							<i class="fi flaticon-technology-1"></i>
-							<h3 class="maintitle">Start <strong>development</strong></h3>
-							<p class="subtitle">Start to build projects</p>
-							
-							<span class="corner corner-1"></span>
-							<span class="corner corner-2"></span>
-						</a>
-					</li>
-					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim">
-						<a class="tab secondary-headline has-icon" href="#time" aria-controls="time" role="tab" data-toggle="tab">
-							<i class="fi flaticon-graphic"></i>
-							<h3 class="maintitle">Launching <strong>time</strong></h3>
-							<p class="subtitle">Client presentation</p>
-							
-							<span class="corner corner-1"></span>
-							<span class="corner corner-2"></span>
-						</a>
-					</li>
-				</ul>
-				<!-- /.row.action-list -->
-
-				<!-- .tab-content -->
-				<section class="tab-content" data-animate>
-
-					<!-- #concept -->
-					<article class="row tab-pane in fade active" id="concept">
-						<div class="col-sm-6">
-							<figure>
-								<img src="images/backgrounds/bridge.jpg" alt="Make a concept" />
-							</figure>
-						</div>
-
-						<div class="col-sm-6">
-							<div class="secondary-headline">
-								<h3 class="maintitle">Make a <strong>concept</strong></h3>
-								<h4 class="subtitle">We created modern design</h4>
-							</div>
-
-							<blockquote class="bottom-space-half">
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy
-								nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-							</blockquote>
-
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diampetir nonummy nibh
-							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat. Ut wisi enim ad minim
-							veniam consectetuer adipiscing elit diam sed diam nonummy nibh euismod.</p>
-						</div>
-					</article>
-					
-					<!-- #prototype -->
-					<article class="row tab-pane fade" id="prototype">
-						<div class="col-sm-6">
-							<figure>
-								<img src="images/backgrounds/bridge.jpg" alt="Make a concept" />
-							</figure>
-						</div>
-
-						<div class="col-sm-6">
-							<div class="secondary-headline">
-								<h3 class="maintitle">Create <strong>prototype</strong></h3>
-								<h4 class="subtitle">Implementing concept</h4>
-							</div>
-
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diampetir nonummy nibh
-							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat. Ut wisi enim ad minim
-							veniam consectetuer adipiscing elit diam sed diam nonummy nibh euismod.</p>
-						</div>
-					</article>
-					
-					<!-- #development -->
-					<article class="row tab-pane fade" id="development">
-						<div class="col-sm-6">
-							<figure>
-								<img src="images/backgrounds/bridge.jpg" alt="Make a concept" />
-							</figure>
-						</div>
-
-						<div class="col-sm-6">
-							<div class="secondary-headline">
-								<h3 class="maintitle">Start <strong>development</strong></h3>
-								<h4 class="subtitle">Start to build projects</h4>
-							</div>
-
-							<blockquote class="bottom-space-half">
-								Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy
-								nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-							</blockquote>
-						</div>
-					</article>
-					
-					<!-- #time -->
-					<article class="row tab-pane fade" id="time">
-						<div class="col-sm-6">
-							<figure>
-								<img src="images/backgrounds/bridge.jpg" alt="Make a concept" />
-							</figure>
-						</div>
-
-						<div class="col-sm-6">
-							<div class="secondary-headline">
-								<h3 class="maintitle">Launching <strong>time</strong></h3>
-								<h4 class="subtitle">Client presentation</h4>
-							</div>
-
-							<p>Consectetuer adipiscing elit diam, sed diampetir nonummy nibh
-							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat.</p>
-
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diampetir nonummy nibh
-							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat. Ut wisi enim ad minim
-							veniam consectetuer adipiscing elit diam sed diam nonummy nibh euismod.</p>
-						</div>
-					</article>
-				
-				</section>
+			
+				<table class="table table-hover stack compare-table">
+					<tbody>
+						<tr>
+							<th class="stack-table-name">접수 기간</th>
+							<td data-cell-title="접수 기간">2018년 12월 03일(월) ~ 2019년 01월 05일(금)<br/>
+							 <span style="color: DarkRed;  font-weight: bold;">- 10명 모집 시까지만 접수 </span></td>
+						</tr>
+						<tr>
+							<th class="stack-table-name">공장 가동 기간</th>
+							<td data-cell-title="공장 가동 기간">2019년 01월 07일(월) ~ 2019년 04월 05일(금)<br/>
+							- 명절 주간 제외하고 12주</td>
+						</tr>
+						<tr>
+							<th class="stack-table-name">공장 지원 대상</th>
+							<td data-cell-title="공장 지원 대상">
+								혼자서 개발 공부를 하려니 너무 막막한 분들 <br/>
+								기술은 배우고 싶은데 학원비가 너무 비싸 고민인 분들 <br/>
+								아이디어는 넘쳐 나는데 구현할 기술이 부족해 답답한 분들 <br/>
+								컴퓨터 전공을 했는데 제대로 된 프로그램 하나 만들지 못하는 분들 <br/>
+								따분한 일상에서 벗어나 소프트웨어 분야로 진출하고 싶은 분들
+							</td>
+						</tr>
+						<tr>
+							<th class="stack-table-name">지원 제한 대상</th>
+							<td data-cell-title="지원 제한 대상">
+								가만히 앉아서 다 떠먹여 주기를 원하는 분들 <br/>
+								바람처럼 살다가 연기처럼 사라지기를 원하는 분들 <br/>
+								인생은 독고다이라고 생각하는 분들 <br/>
+								아직은 학교가 더 중요한 20세 미만 친구들<br/>
+							</td>
+						</tr>
+						<tr>
+							<th class="stack-table-name">등록 비용</th>
+							<td data-cell-title="등록 비용"><span style="color: DarkRed;  font-weight: bold;">150만원 (부가세 포함)</span></td>
+						</tr>
+						<tr>
+							<th class="stack-table-name">등록 우선 순위</th>
+							<td data-cell-title="등록 우선 순위">성실하게 지원서 쓰신 분(<b>절실한 사람</b>) > 먼저 신청하신 분 </td>
+						</tr>
+					</tbody>
+				</table>
 			</div>
 		</section>
-		<!-- /.section -->	
+		<!-- /.section -->
+	
+		<section class="section bg-secondary">
+			<div class="container">
+				<article class="row">
+					<div class="col-sm-10">
+						<div class="section-header bottom-space-2">
+							<h3 class="subtitle text-uppercase primary">구공팩토리 1기 지원서</h3>
+							<h2 class="maintitle"><strong>함께 하고 싶어요</h2>
+
+						</div>
+						
+						<form id="registration-form" class="gform" method="POST" data-email="heungmeroit@gmail.com" action="https://script.google.com/macros/s/AKfycbz4QXrUCp176G_52r5DrTcf_K20f6V3zQ_bYHWGSBui4FbL5dY9/exec">
+							<a href="https://www.youtube.com/watch?v=LzkeTZ2qWoM">&nbsp;[클릭] 반드시 이 영상을 시청한 후 지원서를 작성해 주세요(넌센스 퀴즈 푸는 법)</a>
+							<div class="form-feedback on-valid alert alert-success" role="alert">
+								<p>지원서 제출에 성공했습니다. 기재하신 연락처로 곧 연락 드리겠습니다 :)</p>
+							</div>
+							
+							<div class="form-feedback on-error alert alert-danger" role="alert">
+								<p>지원서 제출에 실패했습니다.</p>
+							</div>
+								
+							<div class="form-group">
+								<input class="form-control" type="text" name="name" placeholder="이름" data-validation="required" data-validation-error-msg="이름을 입력해 주세요" />
+							</div>
+
+							<div class="form-group">
+								<input class="form-control" type="text" name="phone" placeholder="휴대폰 번호" data-validation="custom" data-validation-regexp="^\(?([\d]{2}|[\d]{3})-([\d]{3}|[\d]{4})-[\d]{4}" data-validation-error-msg="올바른 휴대폰 번호를 입력해 주세요" />
+							</div>
+							
+							<div class="form-group">
+								<input class="form-control" type="text" name="job" placeholder="직업 / 소속 또는 전공" data-validation="required" data-validation-error-msg="내용을 입력해 주세요" />
+							</div>
+
+							<div class="form-group">
+								<input class="form-control" type="email" name="email" placeholder="이메일 주소" data-validation="email" data-validation-error-msg="이메일 주소를 입력해 주세요" />
+							</div>
+														
+							<div class="form-group">
+								<input class="form-control" type="text" name="full-time" placeholder="90일 동안 풀타임 참여 가능 여부와 근거" data-validation="required" data-validation-error-msg="내용을 입력해 주세요" />
+							</div>
+
+							<div class="form-group">
+								<textarea class="form-control" cols="20" rows="3" name="purpose" placeholder="구공팩토리 지원 동기" data-validation="length" data-validation-length="200-500" data-validation-error-msg="150자 이상 500자 미만의 글자를 입력해 주세요"></textarea>
+							</div>
+
+							<div class="form-group">
+								<textarea class="form-control" cols="20" rows="5" name="quiz" placeholder="넌센스 퀴즈: 전세로 들어간 집에 보일러가 터졌어요! 어떻게 해야 할까요? 최대한 자세한 절차를 적어보세요" data-validation="required" data-validation-error-msg="당신의 아이디어를 보여주세요"></textarea>
+							</div>
+
+							<div class="form-group text-right text-left-xs">
+								<button type="submit" class="btn btn-simple-to-border btn-primary">지원하기</button>
+							</div>
+						</form>
+					</div>
+				</article>
+			</div>
+		</section>
+		<!-- /.section -->
 
 		<!-- .footer -->
 		<footer class="footer">
@@ -343,7 +292,8 @@
 			<a href="#" class="go-to-top"><span class="fa fa-angle-up"></span><span class="sr-only">Go to top</span></a>
 		</footer>
 		<!-- /.footer -->
-		
+  <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+
 		<!-- JS library -->
 		<script src="js/vendors/jquery.min.js"></script>
 		<!-- HTML/CSS/JS framework -->

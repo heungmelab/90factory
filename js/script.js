@@ -87,12 +87,12 @@
 			
 			// Contact form
 			$.validate({
-				form: '#contact-form',
+				form: '#registration-form',
 				borderColorOnError: '',
 				scrollToTopOnError: false,
 				onSuccess: function(form) {
 					$.ajax({
-						url: './php/contact.php',
+						url: form.action,
 						type: 'POST',
 						timeout: 15000,
 						data: $(form).serialize(),
@@ -997,7 +997,7 @@
 				$('.menu-section').toggleClass('active');
 
 				menuButtons.toggleClass('active');
-				menuButtons.children('i').toggleClass('fa-bars fa-times');
+				menuButtons.children('i').toggleClass('fa-bars fa-close');
 
 				$('.fullscreen-menu .menu-button').css({
 					'top': (menuButtonPosition.top + menuButtonPadding) - $(window).scrollTop() + 'px',

@@ -6689,7 +6689,7 @@ hr {
     counter-increment: product;
   }
   .table.compare-table [data-cell-title]:before {
-    content: counter(product,decimal) ". " attr(data-cell-title);
+    content: attr(data-cell-title);
   }
 }
 /* --- Mobile END --- */
