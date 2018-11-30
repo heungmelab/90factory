@@ -997,7 +997,7 @@
 				$('.menu-section').toggleClass('active');
 
 				menuButtons.toggleClass('active');
-				menuButtons.children('i').toggleClass('fa-bars fa-close');
+				menuButtons.children('i').toggleClass('fa-bars fa-times');
 
 				$('.fullscreen-menu .menu-button').css({
 					'top': (menuButtonPosition.top + menuButtonPadding) - $(window).scrollTop() + 'px',

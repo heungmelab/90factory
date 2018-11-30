@@ -43,6 +43,12 @@
 				font-family: 'BMHANNAAir', sans-serif;
 				font-size: 17px !important;
 			}
+			.maintitle {
+				/*font-family: 'Jeju Gothic', sans-serif;*/
+				font-family: 'BMHANNAAir', sans-serif;
+			    font-weight: bold;
+				font-size: 20px !important;
+			}
 			@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 			.main_text {
 			/*font-family: 'Jeju Gothic', sans-serif;*/
@@ -73,8 +79,8 @@
 				<nav class="menu">
 					<ul>
 						<li><a href="index.html">홈</a></li>
-						<li class="active"><a href="#">소개</a></li>
-						<li><a href="program.html">프로그램</a></li>
+						<li><a href="about">소개</a></li>
+						<li class="active"><a href="#">프로그램</a></li>
 						<li><a href="portfolio.html">포트폴리오</a></li>
 						<li><a href="registration.html">지원하기</a></li>
 						<li><a href="contact.html">문의하기</a></li>
@@ -107,8 +113,8 @@
 					<nav class="col-md-6 hidden-sm hidden-xs default-menu text-center">
 						<ul>
 							<li><a href="index.html">홈</a></li>
-							<li class="active"><a href="#">소개</a></li>
-							<li><a href="program.html">프로그램</a></li>
+							<li><a href="about.html">소개</a></li>
+							<li class="active"><a href="#">프로그램</a></li>
 							<li><a href="portfolio.html">포트폴리오</a></li>
 							<li><a href="registration.html">지원하기</a></li>
 							<li><a href="contact.html">문의하기</a></li>
@@ -140,12 +146,8 @@
 				<div class="section-header large-title text-center">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
-							<img src="images/logo.png" alt="90factory logo" /><br/><br/>
-							<h2 class="maintitle">구공팩토리</h2>
-							<h3 class="subtitle">당신은 당신의 생각을 코드로 만들 권리가 있습니다.</h3>
-							
-							<p>구공팩토리는 90일 동안 진행하는 개발 프로젝트입니다. 하지만 구공팩토리는 `개발 기술`을 가르치지 않습니다. 
-스스로 고민하고, 학습하고, 협업하는 방법을 공유합니다. 구공팩토리는 전 국민이 개발하는 그날까지 가동됩니다.</p>
+							<h2>교육 프로그램</h2>
+							<h3 class="subtitle">구공팩토리 교육은 크게 세 단계로 구성됩니다.</h3>
 						</div>
 					</div>
 					
@@ -154,41 +156,31 @@
 				
 				<!-- .row.action-list -->
 				<ul data-animate class="row list-unstyled action-list inline-type-2 bottom-space" role="tablist">
-					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim active">
+					<li role="presentation" class="col-lg-4 col-sm-6 bottom-space has-corner-line corner-anim active">
 						<a class="tab secondary-headline has-icon corner-anim" href="#concept" aria-controls="concept" role="tab" data-toggle="tab">
-							<i class="fi flaticon-cup"></i>
-							<h3 class="maintitle">Make a <strong>concept</strong></h3>
-							<p class="subtitle">Create modern design</p>
+							<i class="fa fa-campground"></i>
+							<h3 class="maintitle">기본기 다지기</h3>
+							<p class="subtitle">컴퓨터 구조와 프로그램 설계</p>
 							
 							<span class="corner corner-1"></span>
 							<span class="corner corner-2"></span>
 						</a>
 					</li>
-					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim">
+					<li role="presentation" class="col-lg-4 col-sm-6 bottom-space has-corner-line corner-anim">
 						<a class="tab secondary-headline has-icon" href="#prototype" aria-controls="prototype" role="tab" data-toggle="tab">
-							<i class="fi flaticon-arrows"></i>
-							<h3 class="maintitle">Create <strong>prototype</strong></h3>
-							<p class="subtitle">Implementing concept</p>
+							<i class="fa fa-laptop-code"></i>
+							<h3 class="maintitle">프로젝트 코드 개발</h3>
+							<p class="subtitle">센서부터 모바일앱까지</p>
 							
 							<span class="corner corner-1"></span>
 							<span class="corner corner-2"></span>
 						</a>
 					</li>
-					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim">
+					<li role="presentation" class="col-lg-4 col-sm-6 bottom-space has-corner-line corner-anim">
 						<a class="tab secondary-headline has-icon" href="#development" aria-controls="development" role="tab" data-toggle="tab">
-							<i class="fi flaticon-technology-1"></i>
-							<h3 class="maintitle">Start <strong>development</strong></h3>
-							<p class="subtitle">Start to build projects</p>
-							
-							<span class="corner corner-1"></span>
-							<span class="corner corner-2"></span>
-						</a>
-					</li>
-					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim">
-						<a class="tab secondary-headline has-icon" href="#time" aria-controls="time" role="tab" data-toggle="tab">
-							<i class="fi flaticon-graphic"></i>
-							<h3 class="maintitle">Launching <strong>time</strong></h3>
-							<p class="subtitle">Client presentation</p>
+							<i class="fa fa-cogs"></i>
+							<h3 class="maintitle">소프트웨어 테스팅</h3>
+							<p class="subtitle">단단한 프로그램 만들기</p>
 							
 							<span class="corner corner-1"></span>
 							<span class="corner corner-2"></span>
@@ -210,11 +202,11 @@
 
 						<div class="col-sm-6">
 							<div class="secondary-headline">
-								<h3 class="maintitle">Make a <strong>concept</strong></h3>
-								<h4 class="subtitle">We created modern design</h4>
+								<h3 class="maintitle">웜홀 프로그램 [4주]</h3>
+								<h4 class="subtitle">프로그래밍 교육의 혁명이 될 새로운 교육 프로그램</h4>
 							</div>
 
-							<blockquote class="bottom-space-half">
+							<blockquote class="col bottom-space-half">
 								Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy
 								nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 							</blockquote>
@@ -235,8 +227,8 @@
 
 						<div class="col-sm-6">
 							<div class="secondary-headline">
-								<h3 class="maintitle">Create <strong>prototype</strong></h3>
-								<h4 class="subtitle">Implementing concept</h4>
+								<h3 class="maintitle">풀스택 개발 맛보기 [6주]</h3>
+								<h4 class="subtitle">아두이노에서 시작해 모바일 앱을 만들어 보자</h4>
 							</div>
 
 							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diampetir nonummy nibh
@@ -255,8 +247,8 @@
 
 						<div class="col-sm-6">
 							<div class="secondary-headline">
-								<h3 class="maintitle">Start <strong>development</strong></h3>
-								<h4 class="subtitle">Start to build projects</h4>
+								<h3 class="maintitle">디버깅과 테스팅 [2주]</h3>
+								<h4 class="subtitle">그냥 동작하는 것과 잘 동작하는 것의 차이</h4>
 							</div>
 
 							<blockquote class="bottom-space-half">
@@ -265,30 +257,6 @@
 							</blockquote>
 						</div>
 					</article>
-					
-					<!-- #time -->
-					<article class="row tab-pane fade" id="time">
-						<div class="col-sm-6">
-							<figure>
-								<img src="images/backgrounds/bridge.jpg" alt="Make a concept" />
-							</figure>
-						</div>
-
-						<div class="col-sm-6">
-							<div class="secondary-headline">
-								<h3 class="maintitle">Launching <strong>time</strong></h3>
-								<h4 class="subtitle">Client presentation</h4>
-							</div>
-
-							<p>Consectetuer adipiscing elit diam, sed diampetir nonummy nibh
-							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat.</p>
-
-							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diampetir nonummy nibh
-							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat. Ut wisi enim ad minim
-							veniam consectetuer adipiscing elit diam sed diam nonummy nibh euismod.</p>
-						</div>
-					</article>
-				
 				</section>
 			</div>
 		</section>
@@ -312,12 +280,11 @@
 						<!-- .col-md-4 -->
 						<article class="col-md-8 col-sm-10">
 							<div class="about" align="justify">
-								<p>(주)흥미랩은 <b style="color:white;">'생각을 코드로, 상상을 현실로'</b> 라는 모토로 재미있고 흥미로운 IT 기술을 연구하고 교육하는 회사입니다. 구공팩토리는 흥미랩이 주관하는 소프트웨어 교육 프로그램입니다.</p>
-
+								<p>(주)흥미랩은 <b style="color:white;">'생각을 코드로, 상상을 현실로'</b> 라는 모토로 재미있고 흥미로운 IT 기술을 연구하고 교육하는 회사입니다. 구공팩토리는 흥미랩이 주관하는 소프트웨어 교육 프로그램입니다.<br/><br/>
+								사업자등록번호: 185-86-00926 | 대표자: 서준석 | 개인정보보호책임자: 송미선</p>
 								<ul class="list-icon">
 									<li><i class="fa fa-map-marker"></i>서울 금천구 가산디지털1로 171 SK V1 센터 1716호</li>
-									<li><i class="fa fa-phone"></i> 02-123-4567</li>
-									<li><i class="fa fa-envelope"></i>heungmeroit@heung.me</li>
+									<li><i class="fa fa-envelope"></i>heungmeroit@gmail.com</li>
 								</ul>
 							</div>
 						</article>

@@ -73,11 +73,11 @@
 				<nav class="menu">
 					<ul>
 						<li><a href="index.html">홈</a></li>
-						<li><a href="#">소개</a></li>
+						<li><a href="about.html">소개</a></li>
 						<li><a href="program.html">프로그램</a></li>
 						<li><a href="portfolio.html">포트폴리오</a></li>
-						<li class="active"><a href="registration.html">지원하기</a></li>
-						<li><a href="contact.html">문의하기</a></li>
+						<li><a href="registration.html">지원하기</a></li>
+						<li class="active"><a href="#">문의하기</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -107,11 +107,11 @@
 					<nav class="col-md-6 hidden-sm hidden-xs default-menu text-center">
 						<ul>
 							<li><a href="index.html">홈</a></li>
-							<li><a href="#">소개</a></li>
+							<li><a href="about.html">소개</a></li>
 							<li><a href="program.html">프로그램</a></li>
 							<li><a href="portfolio.html">포트폴리오</a></li>
-							<li class="active"><a href="registration.html">지원하기</a></li>
-							<li><a href="contact.html">문의하기</a></li>
+							<li><a href="registration.html">지원하기</a></li>
+							<li class="active"><a href="#">문의하기</a></li>
 						</ul>
 					</nav>
 
@@ -143,7 +143,7 @@
 							<h3 class="subtitle">카카오톡에서 '구공팩토리'를 검색해 보세요. 더욱 빠른 문의 가능합니다 :) </h3>
 						</div>
 						
-						<form id="registration-form" class="gform" method="POST" data-email="heungmeroit@gmail.com" action="https://script.google.com/macros/s/AKfycbz4QXrUCp176G_52r5DrTcf_K20f6V3zQ_bYHWGSBui4FbL5dY9/exec">
+						<form id="registration-form" class="gform" method="POST" data-email="heungmeroit@gmail.com" action="https://script.google.com/macros/s/AKfycbwH-EKdLtpUyZ5bXDGGvCAr5pbd-GFoj4gInFw5/exec">
 							<div class="form-feedback on-valid alert alert-success" role="alert">
 								<p>지원서 제출에 성공했습니다. 기재하신 연락처로 곧 연락 드리겠습니다 :)</p>
 							</div>
@@ -161,11 +161,10 @@
 								}
 						</style>
 							<div class="form-group select-sm">
-								<select class="input-select" name="item-color" id="item-color">
-									<option value="1">Dark blue</option>
-									<option value="2">Black</option>
-									<option value="3">White</option>
-									<option value="4">Red</option>
+								<select class="input-select" name="type" id="type">
+									<option value="registration-ask">등록 문의(비용, 결제 등)</option>
+									<option value="program-ask">교육 프로그램 문의</option>
+									<option value="etc-ask">기타 문의</option>
 								</select>
 							</div>
 
@@ -178,7 +177,7 @@
 							</div>
 
 							<div class="form-group">
-								<textarea class="form-control" cols="20" rows="3" name="purpose" placeholder="문의 내용" data-validation="length" data-validation-length="100-1000" data-validation-error-msg="100자 이상 글자를 입력해 주세요"></textarea>
+								<textarea class="form-control" cols="20" rows="3" name="message" placeholder="문의 내용" data-validation="required" data-validation-error-msg="내용을 입력해 주세요"></textarea>
 							</div>
 
 							<div class="form-group text-right text-left-xs">
@@ -209,12 +208,11 @@
 						<!-- .col-md-4 -->
 						<article class="col-md-8 col-sm-10">
 							<div class="about" align="justify">
-								<p>(주)흥미랩은 <b style="color:white;">'생각을 코드로, 상상을 현실로'</b> 라는 모토로 재미있고 흥미로운 IT 기술을 연구하고 교육하는 회사입니다. 구공팩토리는 흥미랩이 주관하는 소프트웨어 교육 프로그램입니다.</p>
-
+								<p>(주)흥미랩은 <b style="color:white;">'생각을 코드로, 상상을 현실로'</b> 라는 모토로 재미있고 흥미로운 IT 기술을 연구하고 교육하는 회사입니다. 구공팩토리는 흥미랩이 주관하는 소프트웨어 교육 프로그램입니다.<br/><br/>
+								사업자등록번호: 185-86-00926 | 대표자: 서준석 | 개인정보보호책임자: 송미선</p>
 								<ul class="list-icon">
 									<li><i class="fa fa-map-marker"></i>서울 금천구 가산디지털1로 171 SK V1 센터 1716호</li>
-									<li><i class="fa fa-phone"></i> 02-123-4567</li>
-									<li><i class="fa fa-envelope"></i>heungmeroit@heung.me</li>
+									<li><i class="fa fa-envelope"></i>heungmeroit@gmail.com</li>
 								</ul>
 							</div>
 						</article>
@@ -240,7 +238,7 @@
 			<a href="#" class="go-to-top"><span class="fa fa-angle-up"></span><span class="sr-only">Go to top</span></a>
 		</footer>
 		<!-- /.footer -->
-  <script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
+  		<script data-cfasync="false" type="text/javascript" src="js/form-submission-handler.js"></script>
 
 		<!-- JS library -->
 		<script src="js/vendors/jquery.min.js"></script>

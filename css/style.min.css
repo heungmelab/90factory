@@ -1,43 +1,43 @@
 /*
-	+ BASE
-		- Scaffolding
-		- Typography
-		- Keyframes
+  + BASE
+    - Scaffolding
+    - Typography
+    - Keyframes
 
-	+ LAYOUT
-		- Header
-		- Navigation
-		- Footer
-		- Sidebar
-		- Forms
-		- Sections
+  + LAYOUT
+    - Header
+    - Navigation
+    - Footer
+    - Sidebar
+    - Forms
+    - Sections
 
-	+ COMPONENTS
-		- Buttons
-		- Lists
-		- Boxes
-		- Tabs
-		- Tables
-		- Accordions
-		- Tooltips
-		- Dividers
-		- Paginations
-		- Sliders
-		- Progress bars
-		- Countdowns
-		- Lightboxes
-		- Modals
-		- Alerts
+  + COMPONENTS
+    - Buttons
+    - Lists
+    - Boxes
+    - Tabs
+    - Tables
+    - Accordions
+    - Tooltips
+    - Dividers
+    - Paginations
+    - Sliders
+    - Progress bars
+    - Countdowns
+    - Lightboxes
+    - Modals
+    - Alerts
 
-	+ RESPONSIVE
-		- Grid
-		- Desktop and Up
-		- Notebook
-		- Height small
-		- Tablet and Up
-		- Tablet
-		- Tablet and Down
-		- Mobile
+  + RESPONSIVE
+    - Grid
+    - Desktop and Up
+    - Notebook
+    - Height small
+    - Tablet and Up
+    - Tablet
+    - Tablet and Down
+    - Mobile
 */
 /* ========== BASE ========== */
 /* --- Scaffolding --- */
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Corner lines
+  Corner lines
 */
 .has-corner-line {
   position: relative;
@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Preloader
+  Preloader
 */
 .preloader {
   position: fixed;
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Background layer
+  Background layer
 */
 .has-bg-layer {
   position: relative;
@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Middle wrapper
+  Middle wrapper
 */
 .middle-wrapper {
   display: table;
@@ -329,7 +329,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Equalized section
+  Equalized section
 */
 .equalized-section {
   -webkit-transition: height 0.2s;
@@ -338,7 +338,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Background images
+  Background images
 */
 /* Sections */
 .bg-img-your-success {
@@ -424,7 +424,7 @@ h1, h2, h3, h4, h5, h6,
 /* --- Scaffolding END --- */
 /* --- Typography --- */
 /*
-	Section header
+  Section header
 */
 .section-header {
   font-size: 17px;
@@ -479,7 +479,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Secondary headline
+  Secondary headline
 */
 .secondary-headline {
   position: relative;
@@ -515,7 +515,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Main headline
+  Main headline
 */
 .main-headline {
   margin-bottom: 26px;
@@ -556,7 +556,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Title divider
+  Title divider
 */
 .title-divider {
   overflow: hidden;
@@ -580,7 +580,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Block title
+  Block title
 */
 .block-title {
   padding-bottom: 20px;
@@ -597,7 +597,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Block subtitle
+  Block subtitle
 */
 .block-subtitle {
   margin-bottom: 13px;
@@ -606,7 +606,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Featured content
+  Featured content
 */
 .featured-content .img {
   margin-bottom: 15px;
@@ -641,7 +641,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Featured title
+  Featured title
 */
 .featured-title {
   display: inline-block;
@@ -678,7 +678,7 @@ h1, h2, h3, h4, h5, h6,
 }
 
 /*
-	Blockquote
+  Blockquote
 */
 blockquote {
   padding: 0;
@@ -707,7 +707,7 @@ blockquote.quote-background:before {
   margin: 0 0 0 -80px;
   line-height: 1em;
   font-style: normal;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   text-align: center;
   z-index: -1;
   opacity: 0.03;
@@ -728,7 +728,7 @@ blockquote.quote-sides .text:before, blockquote.quote-sides .text:after {
   font-size: 36px;
   line-height: 1em;
   font-style: normal;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   opacity: 0.4;
 }
 blockquote.quote-sides .text:before {
@@ -756,7 +756,7 @@ blockquote.quote-block:before {
   content: '\f10d';
   top: 30px;
   font-size: 25px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   font-style: normal;
   color: #ff7f00;
 }
@@ -767,7 +767,7 @@ blockquote cite {
 }
 
 /*
-	Micro text
+  Micro text
 */
 .micro-text, .media-box .box-options, .media-box .box-options .options li, .slideshow .bottom, .slider-nav:after {
   text-transform: uppercase;
@@ -777,7 +777,7 @@ blockquote cite {
 }
 
 /*
-	Secondary text
+  Secondary text
 */
 .secondary-text {
   color: #999999;
@@ -976,7 +976,7 @@ blockquote cite {
 }
 
 /*
-	Header search
+  Header search
 */
 .header-search form {
   position: absolute;
@@ -1027,7 +1027,7 @@ blockquote cite {
 }
 
 /*
-	Header panel
+  Header panel
 */
 .header-panel {
   position: absolute;
@@ -1116,7 +1116,7 @@ blockquote cite {
 }
 
 /*
-	Info head
+  Info head
 */
 .info-head {
   padding: 15px 0;
@@ -1159,7 +1159,7 @@ blockquote cite {
   color: inherit;
 }
 .info-head .custom-select .button:after {
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   content: "\f0d7";
   line-height: 20px;
   font-size: 11px;
@@ -1214,7 +1214,7 @@ blockquote cite {
 /* --- Header end --- */
 /* --- Navigation --- */
 /*
-	Menu button
+  Menu button
 */
 .menu-button {
   position: relative;
@@ -1234,7 +1234,7 @@ blockquote cite {
 }
 
 /*
-	Quick menu
+  Quick menu
 */
 .quick-menu {
   position: relative;
@@ -1281,7 +1281,7 @@ blockquote cite {
 }
 
 /*
-	Full screen menu
+  Full screen menu
 */
 .fullscreen-menu {
   position: fixed;
@@ -1409,7 +1409,7 @@ blockquote cite {
 }
 
 /*
-	Default menu
+  Default menu
 */
 .default-menu {
   font-family: "Open Sans", Helvetica, Arial, sans-serif;
@@ -1612,7 +1612,7 @@ blockquote cite {
 .default-menu .submenu li a:before {
   content: '\f105';
   padding-right: 5px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
 }
 .default-menu .submenu li.active > a, .default-menu .submenu li:hover > a {
   color: #ff7f00;
@@ -2003,7 +2003,7 @@ label {
 }
 
 /*
-	Form control feedback
+  Form control feedback
 */
 .form-control-feedback {
   padding: 0;
@@ -2026,7 +2026,7 @@ label {
 }
 
 /*
-	Select
+  Select
 */
 .custom-select-wrapper {
   position: relative;
@@ -2076,10 +2076,10 @@ label {
   border-radius: 0;
 }
 .custom-select .button:after {
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
+  content: "∨";
   font-weight: 400;
-  content: "\f0d7";
-  font-size: 12px;
+  font-size: 15px;
   line-height: 38px;
   left: 0;
   right: 0;
@@ -2265,7 +2265,7 @@ input.custom-select-input {
 }
 
 /*
-	Input group
+  Input group
 */
 .input-group-radius .form-control:first-child,
 .input-group-radius .input-group-btn:first-child .btn:first-child {
@@ -2292,7 +2292,7 @@ input.custom-select-input {
 }
 
 /*
-	Checkbox, radio
+  Checkbox, radio
 */
 .checkbox label,
 .radio label {
@@ -2323,7 +2323,7 @@ input.custom-select-input {
   width: 15px;
   height: 15px;
   margin-top: -8px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   text-align: center;
   line-height: 13px;
   border: 1px solid #d7d7d7;
@@ -2358,7 +2358,7 @@ input.custom-select-input {
 }
 
 /*
-	Rating
+  Rating
 */
 .br-theme-icon-rating {
   display: inline-block;
@@ -2370,7 +2370,7 @@ input.custom-select-input {
   margin-right: 3px;
   text-rendering: auto;
   text-decoration: none;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   font-size: 16px;
   line-height: 1em;
   font-weight: 400;
@@ -2393,7 +2393,7 @@ input.custom-select-input {
 }
 
 /*
-	noUiSlider
+  noUiSlider
 */
 .rangle-slider-value {
   padding-bottom: 25px;
@@ -2520,7 +2520,7 @@ input.custom-select-input {
 }
 
 /*
-	Range scrollbar
+  Range scrollbar
 */
 .range-scrollbar .noUi-target {
   margin: 0;
@@ -2611,7 +2611,7 @@ input.custom-select-input {
 }
 
 /*
-	Entry
+  Entry
 */
 .entry .pull-left img {
   margin-right: 26px;
@@ -2710,7 +2710,7 @@ input.custom-select-input {
 }
 
 /*
-	Comment section
+  Comment section
 */
 .comment-section {
   margin-bottom: 78px;
@@ -2741,7 +2741,7 @@ input.custom-select-input {
 }
 
 /*
-	Section bar
+  Section bar
 */
 .section-bar {
   padding-top: 66.66667px;
@@ -2755,7 +2755,7 @@ input.custom-select-input {
 }
 
 /*
-	Header section
+  Header section
 */
 .header-section {
   position: relative;
@@ -2798,21 +2798,21 @@ input.custom-select-input {
 }
 
 /*
-	Section features
+  Section features
 */
 .section-features .icon-box {
   margin-top: 50px;
 }
 
 /*
-	Portfolio
+  Portfolio
 */
 .portfolio {
   margin-bottom: -1px;
 }
 
 /*
-	Map
+  Map
 */
 .map {
   display: block;
@@ -2826,7 +2826,7 @@ img.adp-marker {
 }
 
 /*
-	Result view options
+  Result view options
 */
 .result-view-options {
   padding: 20px 0 10px;
@@ -2889,7 +2889,7 @@ img.adp-marker {
 }
 
 /*
-	Product section
+  Product section
 */
 .product-section .category-title {
   margin-bottom: 8px;
@@ -2973,7 +2973,7 @@ img.adp-marker {
 }
 
 /*
-	Content section
+  Content section
 */
 .content-section {
   margin-bottom: 26px;
@@ -2982,7 +2982,7 @@ img.adp-marker {
 }
 
 /*
-	Cart section
+  Cart section
 */
 .cart-section .cart-row {
   padding-top: 20px;
@@ -3035,7 +3035,7 @@ img.adp-marker {
 }
 
 /*
-	Cart item
+  Cart item
 */
 .cart-item {
   position: relative;
@@ -3087,7 +3087,7 @@ img.adp-marker {
 }
 
 /*
-	Cart total
+  Cart total
 */
 .cart-total .cart-list li {
   padding: 7px 0;
@@ -3110,7 +3110,7 @@ img.adp-marker {
 }
 
 /*
-	Checkout panel
+  Checkout panel
 */
 .checkout-panel {
   padding: 35px 25px;
@@ -3157,7 +3157,7 @@ img.adp-marker {
 }
 
 /*
-	Custom offer section
+  Custom offer section
 */
 .custom-offer-section {
   background-position: center left;
@@ -3207,7 +3207,7 @@ img.adp-marker {
 }
 
 /*
-	Filter
+  Filter
 */
 .filter-header [data-filter-tab] {
   margin-top: -52px;
@@ -3534,7 +3534,7 @@ img.adp-marker {
 /* --- Buttons END --- */
 /* --- Lists --- */
 /*
-	Action list
+  Action list
 */
 .action-list {
   position: relative;
@@ -3618,7 +3618,7 @@ img.adp-marker {
   margin-top: -10px;
   line-height: 18px;
   font-size: 12px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   border: 1px solid gainsboro;
   text-align: center;
   color: #f8f8f8;
@@ -3681,7 +3681,7 @@ img.adp-marker {
 }
 
 /*
-	List icon
+  List icon
 */
 .list-icon {
   padding-left: 0;
@@ -3710,7 +3710,7 @@ img.adp-marker {
 }
 
 /*
-	Navigation list
+  Navigation list
 */
 .nav-list {
   padding: 0;
@@ -3730,7 +3730,7 @@ img.adp-marker {
   margin-top: -10px;
   line-height: 20px;
   font-weight: 400;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
 }
 .nav-list li {
   position: relative;
@@ -3782,7 +3782,7 @@ img.adp-marker {
 }
 
 /*
-	Item lists
+  Item lists
 */
 .item-list-headline {
   position: relative;
@@ -3824,7 +3824,7 @@ img.adp-marker {
 }
 
 /*
-	List inline
+  List inline
 */
 .list-inline.has-divider li {
   padding-left: 10px;
@@ -3840,7 +3840,7 @@ img.adp-marker {
 }
 
 /*
-	Link list
+  Link list
 */
 .link-list {
   font-size: 14px;
@@ -3853,14 +3853,14 @@ img.adp-marker {
 }
 
 /*
-	Button list
+  Button list
 */
 .btn-list .btn {
   margin-bottom: 10px;
 }
 
 /*
-	Tag list
+  Tag list
 */
 .tag-list {
   margin-left: -5px;
@@ -3878,7 +3878,7 @@ img.adp-marker {
 }
 
 /*
-	Social list
+  Social list
 */
 .social-list .title {
   display: inline-block;
@@ -3919,7 +3919,7 @@ img.adp-marker {
 /* --- Lists END --- */
 /* --- Boxes --- */
 /*
-	Icon box
+  Icon box
 */
 .icon-box {
   position: relative;
@@ -3965,7 +3965,7 @@ img.adp-marker {
 }
 
 /*
-	Partner box
+  Partner box
 */
 .partner-box {
   display: table;
@@ -4061,7 +4061,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Pricing box
+  Pricing box
 */
 .pricing-box {
   margin-bottom: 26px;
@@ -4196,7 +4196,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Media box
+  Media box
 */
 .media-box {
   position: relative;
@@ -4673,7 +4673,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Figure content box
+  Figure content box
 */
 .figure-content-box .figure-with-title,
 .figure-content-box .progress-square {
@@ -4696,7 +4696,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Figure with title
+  Figure with title
 */
 .figure-with-title {
   position: relative;
@@ -4734,7 +4734,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Reviews
+  Reviews
 */
 .review .rating {
   margin-bottom: 10px;
@@ -4780,7 +4780,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Box square
+  Box square
 */
 .box-square {
   position: relative;
@@ -4824,7 +4824,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Cateory box
+  Cateory box
 */
 .category-box .square-inner {
   background-position: center center;
@@ -4848,7 +4848,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Item box
+  Item box
 */
 .item-box {
   margin-bottom: 30px;
@@ -4960,7 +4960,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Description box
+  Description box
 */
 .description-box .figure {
   padding-top: 100px;
@@ -5005,7 +5005,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	List box
+  List box
 */
 .list-box {
   text-transform: uppercase;
@@ -5019,7 +5019,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Feed box
+  Feed box
 */
 .feed-box {
   position: relative;
@@ -5120,7 +5120,7 @@ a.partner-box:hover.brand-box {
 /* --- Boxes END --- */
 /* --- Tabs --- */
 /*
-	Button tab
+  Button tab
 */
 .button-tab {
   margin-left: -5px;
@@ -5168,7 +5168,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Text tab
+  Text tab
 */
 .text-tab {
   margin-left: -15px;
@@ -5203,7 +5203,7 @@ a.partner-box:hover.brand-box {
 }
 
 /*
-	Compare table
+  Compare table
 */
 .compare-table {
   table-layout: fixed;
@@ -5342,7 +5342,7 @@ hr {
 /* --- Paginations END --- */
 /* --- Sliders --- */
 /*
-	Slideshow
+  Slideshow
 */
 .slideshow {
   position: relative;
@@ -5394,7 +5394,7 @@ hr {
 }
 
 /*
-	Posts carousel
+  Posts carousel
 */
 .posts-carousel .slick-dots {
   margin-top: 26px;
@@ -5402,7 +5402,7 @@ hr {
 }
 
 /*
-	Featured carousel 
+  Featured carousel 
 */
 .featured-slider {
   position: relative;
@@ -5436,7 +5436,7 @@ hr {
 }
 
 /*
-	Slider nav
+  Slider nav
 */
 .slider-nav {
   position: relative;
@@ -5538,7 +5538,7 @@ hr {
 }
 
 /*
-	Product carousel with navigation
+  Product carousel with navigation
 */
 .product-carousel-image {
   position: relative;
@@ -5615,7 +5615,7 @@ hr {
 }
 
 /*
-	Slider arrows
+  Slider arrows
 */
 .slick-arrow {
   position: relative;
@@ -5626,7 +5626,7 @@ hr {
   border: 0;
   font-size: 0;
   line-height: 0;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   color: #4c4c4c;
   background: transparent;
   opacity: 0.2;
@@ -5675,15 +5675,15 @@ hr {
 }
 
 /*
-	Transparent item
+  Transparent item
 */
 /*.has-transparent-item .slick-slide {
-	opacity: 0.5;
+  opacity: 0.5;
 }*/
 /* --- Sliders END --- */
 /* --- Progress bars --- */
 /*
-	Progress bar
+  Progress bar
 */
 .progress-bar-list.has-img-title {
   padding-left: 85px;
@@ -5731,7 +5731,7 @@ hr {
 }
 
 /*
-	Progress square
+  Progress square
 */
 .progress-square {
   position: relative;
@@ -5875,7 +5875,7 @@ hr {
   top: 50%;
   font-size: 40px;
   margin-top: -20px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   color: #fff;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
@@ -6017,7 +6017,7 @@ hr {
 /* --- Desktop and Up --- */
 @media screen and (min-width: 1800px) {
   /*
-  	Menu
+    Menu
   */
   .default-menu > ul > li {
     margin-right: 25px;
@@ -6030,7 +6030,7 @@ hr {
   }
 
   /*
-  	Box square
+    Box square
   */
   .box-square.height2 img {
     max-width: 340px;
@@ -6047,7 +6047,7 @@ hr {
   }
 
   /*
-  	Slider arrows
+    Slider arrows
   */
   .slider-arrows.align-middle .container-fluid {
     padding: 0 50px;
@@ -6055,28 +6055,28 @@ hr {
 }
 @media screen and (min-width: 1200px) {
   /*
-  	Selectors
+    Selectors
   */
   .text-right-lg {
     text-align: right;
   }
 
   /*
-  	Sections
+    Sections
   */
   .section.horizontal-space .half-wrapper {
     max-width: 470px;
   }
 
   /*
-  	Grid
+    Grid
   */
   .col-lg-up-5 {
     width: 20%;
   }
 
   /*
-  	Highlighted title
+    Highlighted title
   */
   .featured-title.title-large .title {
     font-size: 102px;
@@ -6084,7 +6084,7 @@ hr {
   }
 
   /*
-  	Action list
+    Action list
   */
   .action-list.inline-type-2 li .tab:before {
     position: absolute;
@@ -6099,28 +6099,28 @@ hr {
 /* --- Notebook --- */
 @media screen and (min-width: 992px) and (max-width: 1199px) {
   /*
-  	Selectors
+    Selectors
   */
   .text-right-md {
     text-align: right;
   }
 
   /*
-  	Grid
+    Grid
   */
   .col-md-up-5 {
     width: 20%;
   }
 
   /*
-  	Header
+    Header
   */
   .header-search.active form {
     width: 170px;
   }
 
   /*
-  	Menu
+    Menu
   */
   .default-menu > ul > li {
     margin-left: 5px;
@@ -6131,21 +6131,21 @@ hr {
   }
 
   /*
-  	Box square
+    Box square
   */
   .box-square.height2 img {
     max-height: 150px;
   }
 
   /*
-  	Result view options
+    Result view options
   */
   .result-view-options .form-group .form-control {
     width: 150px;
   }
 
   /*
-  	Product section
+    Product section
   */
   .product-section .product-panel {
     margin-bottom: 26px;
@@ -6155,7 +6155,7 @@ hr {
 /* --- Height small --- */
 @media screen and (max-height: 730px) {
   /*
-  	Highlighted content
+    Highlighted content
   */
   .featured-content .img img {
     max-height: 120px;
@@ -6165,7 +6165,7 @@ hr {
 /* --- Tablet and Up --- */
 @media screen and (min-width: 768px) {
   /*
-  	Icon box
+    Icon box
   */
   .icon-box.align-right {
     padding-left: 0;
@@ -6197,28 +6197,28 @@ hr {
   }
 
   /*
-  	Grid
+    Grid
   */
   .col-sm-up-5 {
     width: 20%;
   }
 
   /*
-  	Header section
+    Header section
   */
   .header-section {
     height: 500px;
   }
 
   /*
-  	Figure content box
+    Figure content box
   */
   .figure-content-box .content {
     margin-top: -90px;
   }
 
   /*
-  	Box square
+    Box square
   */
   .box-square.height2 img {
     max-height: 160px;
@@ -6228,7 +6228,7 @@ hr {
 /* --- Tablet and Down --- */
 @media screen and (max-width: 991px) {
   /*
-  	Header
+    Header
   */
   .header-panel {
     display: none;
@@ -6252,14 +6252,14 @@ hr {
   }
 
   /*
-  	Menu
+    Menu
   */
   .default-menu .submenu {
     display: none;
   }
 
   /*
-  	Figure content box
+    Figure content box
   */
   .figure-content-box .content {
     margin-left: 15px;
@@ -6268,7 +6268,7 @@ hr {
   }
 
   /*
-  	Filter header
+    Filter header
   */
   .filter-header [data-filter-tab] {
     margin-top: 0;
@@ -6278,7 +6278,7 @@ hr {
   }
 
   /*
-  	Media box
+    Media box
   */
   .media-box.has-details .box-name {
     bottom: 100%;
@@ -6290,7 +6290,7 @@ hr {
   }
 
   /*
-  	Description box
+    Description box
   */
   .description-box .content:after {
     top: auto;
@@ -6307,7 +6307,7 @@ hr {
   }
 
   /*
-  	Result view options
+    Result view options
   */
   .result-view-options .form-group {
     white-space: normal;
@@ -6324,21 +6324,21 @@ hr {
   }
 
   /*
-  	Product section
+    Product section
   */
   .product-section .product-panel {
     margin-bottom: 26px;
   }
 
   /*
-  	Rating
+    Rating
   */
   .br-theme-icon-rating .br-widget a {
     padding: 5px;
   }
 
   /*
-  	Cart section
+    Cart section
   */
   .cart-section .cart-row {
     border-bottom: 1px solid gainsboro;
@@ -6361,7 +6361,7 @@ hr {
 /* --- Mobile --- */
 @media screen and (max-width: 767px) {
   /*
-  	Selectors
+    Selectors
   */
   .no-gap-xs {
     padding-left: 0;
@@ -6393,7 +6393,7 @@ hr {
   }
 
   /*
-  	Sections
+    Sections
   */
   .section.horizontal-space {
     padding-left: 15px;
@@ -6401,7 +6401,7 @@ hr {
   }
 
   /*
-  	Header section
+    Header section
   */
   .header-section,
   .header-section.height-small {
@@ -6423,14 +6423,14 @@ hr {
   }
 
   /*
-  	Description box
+    Description box
   */
   .description-box .content {
     padding: 30px 15px;
   }
 
   /*
-  	Header
+    Header
   */
   .header.fixed .logo, .header.sticky .logo {
     padding-top: 12px;
@@ -6486,28 +6486,28 @@ hr {
   }
 
   /*
-  	Footer
+    Footer
   */
   .go-to-top {
     display: none;
   }
 
   /*
-  	Menu
+    Menu
   */
   .fullscreen-menu .inner {
     padding-top: 50px;
   }
 
   /*
-  	Grid
+    Grid
   */
   .col-xs-up-5 {
     width: 20%;
   }
 
   /*
-  	Highlighted title
+    Highlighted title
   */
   .featured-title.has-corner-line {
     padding: 3px 23px;
@@ -6522,7 +6522,7 @@ hr {
   }
 
   /*
-  	Progress bar
+    Progress bar
   */
   .progress-bar-list.has-img-title {
     padding-left: 65px;
@@ -6532,7 +6532,7 @@ hr {
   }
 
   /*
-  	Tabs
+    Tabs
   */
   .button-tab li,
   .text-tab li {
@@ -6540,7 +6540,7 @@ hr {
   }
 
   /*
-  	Slideshow
+    Slideshow
   */
   .slideshow .featured-content .img img {
     max-height: 50px;
@@ -6553,7 +6553,7 @@ hr {
   }
 
   /*
-  	Featured slider
+    Featured slider
   */
   .featured-slider .slick-prev {
     left: 65px;
@@ -6563,7 +6563,7 @@ hr {
   }
 
   /*
-  	Figure content box
+    Figure content box
   */
   .figure-content-box .content {
     margin-top: 0;
@@ -6572,21 +6572,21 @@ hr {
   }
 
   /*
-  	Box square
+    Box square
   */
   .box-square.width2:after {
     padding-bottom: 100%;
   }
 
   /*
-  	Category box
+    Category box
   */
   .category-box img.left {
     opacity: 0.3;
   }
 
   /*
-  	Countdown
+    Countdown
   */
   .countdown .column {
     width: 60px;
@@ -6596,14 +6596,14 @@ hr {
   }
 
   /*
-  	Map
+    Map
   */
   .map iframe {
     height: 200px;
   }
 
   /*
-  	Custom offer section
+    Custom offer section
   */
   .custom-offer-section .main-headline:after {
     left: 50%;
@@ -6611,7 +6611,7 @@ hr {
   }
 
   /*
-  	Media box
+    Media box
   */
   .media-box.box-featured .featured-slider {
     max-width: 290px;
@@ -6628,14 +6628,14 @@ hr {
   }
 
   /*
-  	Modal
+    Modal
   */
   .remodal-is-initialized {
     display: block;
   }
 
   /*
-  	Table
+    Table
   */
   .table.stack {
     display: block;

@@ -707,7 +707,7 @@ blockquote.quote-background:before {
   margin: 0 0 0 -80px;
   line-height: 1em;
   font-style: normal;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   text-align: center;
   z-index: -1;
   opacity: 0.03;
@@ -728,7 +728,7 @@ blockquote.quote-sides .text:before, blockquote.quote-sides .text:after {
   font-size: 36px;
   line-height: 1em;
   font-style: normal;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   opacity: 0.4;
 }
 blockquote.quote-sides .text:before {
@@ -756,7 +756,7 @@ blockquote.quote-block:before {
   content: '\f10d';
   top: 30px;
   font-size: 25px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   font-style: normal;
   color: #ff7f00;
 }
@@ -1159,7 +1159,7 @@ blockquote cite {
   color: inherit;
 }
 .info-head .custom-select .button:after {
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   content: "\f0d7";
   line-height: 20px;
   font-size: 11px;
@@ -1612,7 +1612,7 @@ blockquote cite {
 .default-menu .submenu li a:before {
   content: '\f105';
   padding-right: 5px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
 }
 .default-menu .submenu li.active > a, .default-menu .submenu li:hover > a {
   color: #ff7f00;
@@ -2076,10 +2076,10 @@ label {
   border-radius: 0;
 }
 .custom-select .button:after {
-  font-family: "Font Awesome 5 Free";
-  content: "\f0d7";
+  font-family: FontAwesome;
+  content: "∨";
   font-weight: 400;
-  font-size: 12px;
+  font-size: 15px;
   line-height: 38px;
   left: 0;
   right: 0;
@@ -2323,7 +2323,7 @@ input.custom-select-input {
   width: 15px;
   height: 15px;
   margin-top: -8px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   text-align: center;
   line-height: 13px;
   border: 1px solid #d7d7d7;
@@ -2370,7 +2370,7 @@ input.custom-select-input {
   margin-right: 3px;
   text-rendering: auto;
   text-decoration: none;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   font-size: 16px;
   line-height: 1em;
   font-weight: 400;
@@ -3618,7 +3618,7 @@ img.adp-marker {
   margin-top: -10px;
   line-height: 18px;
   font-size: 12px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   border: 1px solid gainsboro;
   text-align: center;
   color: #f8f8f8;
@@ -3730,7 +3730,7 @@ img.adp-marker {
   margin-top: -10px;
   line-height: 20px;
   font-weight: 400;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
 }
 .nav-list li {
   position: relative;
@@ -5626,7 +5626,7 @@ hr {
   border: 0;
   font-size: 0;
   line-height: 0;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   color: #4c4c4c;
   background: transparent;
   opacity: 0.2;
@@ -5875,7 +5875,7 @@ hr {
   top: 50%;
   font-size: 40px;
   margin-top: -20px;
-  font-family: "Font Awesome 5 Free";
+  font-family: FontAwesome;
   color: #fff;
   text-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
 }
