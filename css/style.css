@@ -1539,8 +1539,8 @@ blockquote cite {
 }
 .default-menu > ul > li {
   display: inline-block;
-  margin: 0 8px;
-  font-size: 14px;
+  margin: 0 10px;
+  font-size: 18px;
   line-height: 24px;
 }
 .default-menu > ul > li > a {
