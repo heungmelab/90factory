@@ -24,7 +24,6 @@
 			<script src="js/vendors/html5shiv.min.js"></script>
 		<![endif]-->
 
-
 		<style>
 			@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 			@font-face {
@@ -42,7 +41,7 @@
 			.subtitle, p {
 				/*font-family: 'Jeju Gothic', sans-serif;*/
 				font-family: 'BMHANNAAir', sans-serif;
-				font-size: 19px !important;
+				font-size: 17px !important;
 			}
 			@import url(//fonts.googleapis.com/earlyaccess/nanumgothic.css);
 			.main_text {
@@ -53,6 +52,7 @@
 			font-size: 25px;
 			}
 		</style>
+
 
 	</head>
 	
@@ -72,8 +72,8 @@
 
 				<nav class="menu">
 					<ul>
-						<li class="active"><a href="#">홈</a></li>
-						<li><a href="about.html">소개</a></li>
+						<li><a href="index.html">홈</a></li>
+						<li class="active"><a href="#">소개</a></li>
 						<li><a href="program.html">프로그램</a></li>
 						<li><a href="portfolio.html">포트폴리오</a></li>
 						<li><a href="registration.html">지원하기</a></li>
@@ -87,25 +87,7 @@
 		<!-- .slideshow -->
 		<section class="slideshow">
 			<div class="sliders" data-slider-nav="slideshow-nav">
-				<article class="slider fullscreen-section" style="background-image: url('images/backgrounds/cave-dotted.jpg');">
-					<div class="caption">
-						<div class="container">
-							<div class="featured-content">
-
-								<p class="img">
-									<img src="images/logo-black-stag.png" alt="Black Stage since 1980 logo" />
-								</p>
-								<p class="main_text">
-									상상을 현실로, 생각을 코드로<br>당신의 인생을 바꿀 90일 -
-								</p>
-								
-								<a href="#" class="scroll-down">
-									<span class="sr-only">Scroll down</span>
-									<i class="fa fa-angle-double-down"></i>
-								</a>
-							</div>
-						</div>
-					</div>
+				<article class="slider">
 				</article>
 				
 			</div>
@@ -124,8 +106,8 @@
 					</div>
 					<nav class="col-md-6 hidden-sm hidden-xs default-menu text-center">
 						<ul>
-							<li class="active"><a href="#">홈</a></li>
-							<li><a href="about.html">소개</a></li>
+							<li><a href="index.html">홈</a></li>
+							<li class="active"><a href="#">소개</a></li>
 							<li><a href="program.html">프로그램</a></li>
 							<li><a href="portfolio.html">포트폴리오</a></li>
 							<li><a href="registration.html">지원하기</a></li>
@@ -133,7 +115,7 @@
 						</ul>
 					</nav>
 
-						<div class="col-md-3 col-sm-7 col-xs-8">
+									<div class="col-md-3 col-sm-7 col-xs-8">
 						<!-- .default-menu.menu-icons -->
 						<div class="default-menu menu-icons">
 							<ul>
@@ -150,85 +132,164 @@
 			</div>
 		</header>
 		<!-- /.header.sticky.light -->
-
+	
 
 		<!-- .section -->
-		<section class="section bg-secondary">
+		<section class="section">
 			<div class="container">
 				<div class="section-header large-title text-center">
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<img src="images/logo.png" alt="90factory logo" /><br/><br/>
-							<h2 class="maintitle" style="word-break: keep-all;">고품격 인생 코딩 프로젝트</h2>					
-							<div class="countdown" data-final-date="2019/01/07 10:00"></div><br/>
-							<a href="registration.html"><h3 class="subtitle"><= 구공팩토리 1기 모집 중 [10명] =><br/></h3>
-							- 모집 기간: 2018.12.03 ~ 2019.01.04<br/>
-							- 교육 기간: 2018.01.07 ~ 2019.04.05</a>
+							<h2 class="maintitle">구공팩토리</h2>
+							<h3 class="subtitle">당신은 당신의 생각을 코드로 만들 권리가 있습니다.</h3>
+							
+							<p>구공팩토리는 90일 동안 진행하는 개발 프로젝트입니다. 하지만 구공팩토리는 `개발 기술`을 가르치지 않습니다. 
+스스로 고민하고, 학습하고, 협업하는 방법을 공유합니다. 구공팩토리는 전 국민이 개발하는 그날까지 가동됩니다.</p>
 						</div>
 					</div>
 					
 					<div class="divider type-1"></div>
 				</div>
 				
-				<article class="row collapsed description-box">
-					<div class="col-md-7" data-animate="fadeInLeft">
-						<div data-mh class="figure bg-img-webdesign">	
-							<i class="fa fa-credit-card" style="font-size: 3em;"></i><br/><br/>					
-							<h3 class="title">너무 비싼 교육비</h3>
-						</div>
-					</div>
+				<!-- .row.action-list -->
+				<ul data-animate class="row list-unstyled action-list inline-type-2 bottom-space" role="tablist">
+					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim active">
+						<a class="tab secondary-headline has-icon corner-anim" href="#concept" aria-controls="concept" role="tab" data-toggle="tab">
+							<i class="fi flaticon-cup"></i>
+							<h3 class="maintitle">Make a <strong>concept</strong></h3>
+							<p class="subtitle">Create modern design</p>
+							
+							<span class="corner corner-1"></span>
+							<span class="corner corner-2"></span>
+						</a>
+					</li>
+					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim">
+						<a class="tab secondary-headline has-icon" href="#prototype" aria-controls="prototype" role="tab" data-toggle="tab">
+							<i class="fi flaticon-arrows"></i>
+							<h3 class="maintitle">Create <strong>prototype</strong></h3>
+							<p class="subtitle">Implementing concept</p>
+							
+							<span class="corner corner-1"></span>
+							<span class="corner corner-2"></span>
+						</a>
+					</li>
+					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim">
+						<a class="tab secondary-headline has-icon" href="#development" aria-controls="development" role="tab" data-toggle="tab">
+							<i class="fi flaticon-technology-1"></i>
+							<h3 class="maintitle">Start <strong>development</strong></h3>
+							<p class="subtitle">Start to build projects</p>
+							
+							<span class="corner corner-1"></span>
+							<span class="corner corner-2"></span>
+						</a>
+					</li>
+					<li role="presentation" class="col-lg-3 col-sm-6 bottom-space has-corner-line corner-anim">
+						<a class="tab secondary-headline has-icon" href="#time" aria-controls="time" role="tab" data-toggle="tab">
+							<i class="fi flaticon-graphic"></i>
+							<h3 class="maintitle">Launching <strong>time</strong></h3>
+							<p class="subtitle">Client presentation</p>
+							
+							<span class="corner corner-1"></span>
+							<span class="corner corner-2"></span>
+						</a>
+					</li>
+				</ul>
+				<!-- /.row.action-list -->
 
-					<div class="col-md-5" data-animate="fadeInRight">
-						<div data-mh class="content right">
+				<!-- .tab-content -->
+				<section class="tab-content" data-animate>
+
+					<!-- #concept -->
+					<article class="row tab-pane in fade active" id="concept">
+						<div class="col-sm-6">
+							<figure>
+								<img src="images/backgrounds/bridge.jpg" alt="Make a concept" />
+							</figure>
+						</div>
+
+						<div class="col-sm-6">
 							<div class="secondary-headline">
-								<h3 class="maintitle">교육 기회는 누구에게나 열려 있습니다.</h3>
-								<h4 class="subtitle">문제는 가격이죠.</h4>
+								<h3 class="maintitle">Make a <strong>concept</strong></h3>
+								<h4 class="subtitle">We created modern design</h4>
 							</div>
 
-							<p align="justify" style="word-break: keep-all;">대학 등록금 1년 <span style="color: DarkRed;  font-weight: bold;">천만원</span> 시대. 하지만 대학은 여러분들의 소프트웨어 능력을 보장해 주지 않습니다. 학원도 사정은 마찬가집니다. 최소 <span style="color: DarkRed;  font-weight: bold;">500만원</span> 정도는 있어야 제대로 된 교육을 들을 수 있습니다. 최근에는 가격이 저렴하면서 정말 훌륭한 온라인 강의들이 많아졌습니다. 하지만 어떤 교육을 들어야 하는지 판단이 매우 어렵죠.</p>
+							<blockquote class="bottom-space-half">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy
+								nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+							</blockquote>
+
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diampetir nonummy nibh
+							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat. Ut wisi enim ad minim
+							veniam consectetuer adipiscing elit diam sed diam nonummy nibh euismod.</p>
 						</div>
-					</div>
-				</article>
+					</article>
+					
+					<!-- #prototype -->
+					<article class="row tab-pane fade" id="prototype">
+						<div class="col-sm-6">
+							<figure>
+								<img src="images/backgrounds/bridge.jpg" alt="Make a concept" />
+							</figure>
+						</div>
+
+						<div class="col-sm-6">
+							<div class="secondary-headline">
+								<h3 class="maintitle">Create <strong>prototype</strong></h3>
+								<h4 class="subtitle">Implementing concept</h4>
+							</div>
+
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diampetir nonummy nibh
+							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat. Ut wisi enim ad minim
+							veniam consectetuer adipiscing elit diam sed diam nonummy nibh euismod.</p>
+						</div>
+					</article>
+					
+					<!-- #development -->
+					<article class="row tab-pane fade" id="development">
+						<div class="col-sm-6">
+							<figure>
+								<img src="images/backgrounds/bridge.jpg" alt="Make a concept" />
+							</figure>
+						</div>
+
+						<div class="col-sm-6">
+							<div class="secondary-headline">
+								<h3 class="maintitle">Start <strong>development</strong></h3>
+								<h4 class="subtitle">Start to build projects</h4>
+							</div>
+
+							<blockquote class="bottom-space-half">
+								Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diam nonummy
+								nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+							</blockquote>
+						</div>
+					</article>
+					
+					<!-- #time -->
+					<article class="row tab-pane fade" id="time">
+						<div class="col-sm-6">
+							<figure>
+								<img src="images/backgrounds/bridge.jpg" alt="Make a concept" />
+							</figure>
+						</div>
+
+						<div class="col-sm-6">
+							<div class="secondary-headline">
+								<h3 class="maintitle">Launching <strong>time</strong></h3>
+								<h4 class="subtitle">Client presentation</h4>
+							</div>
+
+							<p>Consectetuer adipiscing elit diam, sed diampetir nonummy nibh
+							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat.</p>
+
+							<p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit diam, sed diampetir nonummy nibh
+							euismod tincidunt ut laoreet dolore magna aliquam eratidium volutpat. Ut wisi enim ad minim
+							veniam consectetuer adipiscing elit diam sed diam nonummy nibh euismod.</p>
+						</div>
+					</article>
 				
-				<article class="row collapsed description-box">
-					<div class="col-md-7 col-md-push-5" data-animate="fadeInRight">
-						<div data-mh class="figure bg-img-development">
-							<i class="fa fa-list-ul" style="font-size: 3em;"></i><br/><br/>					
-							<h3 class="title">틀에 박힌 교육과정</h3>
-						</div>
-					</div>
-
-					<div class="col-md-5 col-md-pull-7" data-animate="fadeInLeft">
-						<div data-mh class="content left">
-							<div class="secondary-headline">
-								<h3 class="maintitle">강사의, 강사에 의한, 강사를 위한 교육이 대부분이죠.</h3>
-								<h4 class="subtitle">이유는 없고, 방법만 있습니다.</h4>
-							</div>
-
-							<p align="justify" style="word-break: keep-all;">우리에게 필요한 것은 단편적인 기술 지식이 아닌 <span style="color: DarkRed;  font-weight: bold;">'왜', '어떻게'</span>에 대한 대답입니다. SW에는 유일한 정답이 없습니다.  프로그래밍은 우리의 일상에 필요한 무언가를 코드로 만드는, <span style="color: DarkRed;  font-weight: bold;">나만의 정답</span>을 찾아 나가는 과정입니다. 하지만 모든 내용을 강사가 결정하고 주도하는 방식만으로는 나만의 정답을 찾을 수 없습니다.</p>
-						</div>
-					</div>
-				</article>
-				
-				<article class="row collapsed description-box">
-					<div class="col-md-7" data-animate="fadeInLeft">
-						<div data-mh class="figure has-bg-layer layer-black half-opacity bg-img-branding">
-							<i class="fa fa-compass" style="font-size: 3em;"></i><br/><br/>					
-							<h3 class="title">목표와 방향성 부재</h3>
-						</div>
-					</div>
-
-					<div class="col-md-5" data-animate="fadeInRight">
-						<div data-mh class="content right">
-							<div class="secondary-headline">
-								<h3 class="maintitle">모든 기술을 다 습득할 수는 없습니다.</h3>
-								<h4 class="subtitle">전부 다 잘할 수는 없어요.</h4>
-							</div>
-
-							<p align="justify" style="word-break: keep-all;">스티브 잡스는 <span style="color: DarkRed;  font-weight: bold;">'사람들은 직접 보여주기 전까지는 자신이 무엇을 원하는지 모른다'</span>고 말했습니다. 세상에는 정말 재미있고 신기한 소프트웨어 기술들이 많이 있습니다. 하지만 정확한 목표와 목적성이 없다면 쉽게 지치게 되고, 재미와 의욕을 모두 잃을 수 있습니다. <span style="color: DarkRed;  font-weight: bold;">나에게 맞는, 즐거운, 자꾸 손이 가는</span> 기술 분야를 찾는 것이 매우 중요합니다.</p>
-						</div>
-					</div>
-				</article>
+				</section>
 			</div>
 		</section>
 		<!-- /.section -->	
@@ -303,8 +364,6 @@
 		<script src="js/vendors/jquery.selectric.min.js"></script>
 		<!-- Bar rating -->
 		<script src="js/vendors/jquery.barrating.min.js"></script>
-		<!-- Countdown-->
-		<script src="js/vendors/jquery.countdown.min.js"></script>
 
 		
 		<!-- Custom JS -->
