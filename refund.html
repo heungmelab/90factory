@@ -38,7 +38,7 @@
 				/*font-family: 'Jeju Gothic', sans-serif;*/
 				font-family: 'BMHANNA_11yrs', sans-serif;
 			}
-			.subtitle, p {
+			.subtitle, p, table {
 				/*font-family: 'Jeju Gothic', sans-serif;*/
 				font-family: 'BMHANNAAir', sans-serif;
 				font-size: 17px !important;
@@ -50,6 +50,13 @@
 			font-style: normal !important;
 			font-size: 25px;
 			}
+			table {
+				width: 70%;
+			}
+	      	table, th, td {
+	      		padding: 10px 10px 10px 10px;
+	    	    border: 1px solid #bcbcbc;
+    	  	}
 		</style>
 
 
@@ -76,7 +83,7 @@
 						<li><a href="program.html">프로그램</a></li>
 						<li><a href="portfolio.html">포트폴리오</a></li>
 						<li><a href="registration.html">지원하기</a></li>
-						<li class="active"><a href="#">문의하기</a></li>
+						<li><a href="contact.html">문의하기</a></li>
 					</ul>
 				</nav>
 			</div>
@@ -110,7 +117,7 @@
 							<li><a href="program.html">프로그램</a></li>
 							<li><a href="portfolio.html">포트폴리오</a></li>
 							<li><a href="registration.html">지원하기</a></li>
-							<li class="active"><a href="#">문의하기</a></li>
+							<li><a href="contact.html">문의하기</a></li>
 						</ul>
 					</nav>
 
@@ -132,57 +139,41 @@
 		</header>
 		<!-- /.header.sticky.light -->
 	
-		<section class="section bg-secondary">
+		<section class="section">
 			<div class="container">
 				<article class="row">
 					<div class="col-sm-10">
 						<div class="section-header bottom-space-2">
-							<h3 class="subtitle text-uppercase primary">구공팩토리에 대해 알고 싶어요</h3>
-							<h2 class="maintitle"><strong>문의하기</strong></h2>
-							<h3 class="subtitle">카카오톡에서 '구공팩토리'를 검색해 보세요. 더욱 빠른 문의 가능합니다 :) </h3>
+							<h2 class="maintitle">환불규정</h2>
+							<p>구공팩토리 프로그램은 다음과 같은 환불 규정을 따릅니다. </p>
+							<table>
+								<tr>
+									<td width="50%">프로그램 시작 14일 전까지</td>
+									<td>수강료 전액 환불</td>
+								</tr>
+								<tr>
+									<td width="50%">프로그램 시작 7일 전까지</td>
+									<td>수강료의 20% 제외하고 환불</td>
+								</tr>
+								<tr>
+									<td width="50%">프로그램 경과 7일 이내</td>
+									<td>수강료의 50% 제외하고 환불</td>
+								</tr>
+								<tr>
+									<td width="50%">프로그램 경과 8일 이후</td>
+									<td>환불하지 않음</td>
+								</tr>
+							</table>
+						<p><예시><br/>
+							2019.01.07 개강일 기준<br/>
+							2019.01.01 이전: 수강료 전액 환불<br/>
+							2019.01.01 이후~2019.01.06: 수강료의 20% 제외하고 환불<br/>
+							2019.01.07~2019.01.13: 수강료의 50% 제외하고 환불<br/>
+							2019.01.14부터: 환불하지 않음<br/>
+							</p>
+
 						</div>
 						
-						<form id="registration-form" class="gform" method="POST" data-email="heungmeroit@gmail.com" action="https://script.google.com/macros/s/AKfycbwH-EKdLtpUyZ5bXDGGvCAr5pbd-GFoj4gInFw5/exec">
-							<div class="form-feedback on-valid alert alert-success" role="alert">
-								<p>지원서 제출에 성공했습니다. 기재하신 연락처로 곧 연락 드리겠습니다 :)</p>
-							</div>
-							
-							<div class="form-feedback on-error alert alert-danger" role="alert">
-								<p>지원서 제출에 실패했습니다.</p>
-							</div>
-							<style>
-								.input-select .custom-select .button:after {
-								  font-family: "Font Awesome 5 Free";
-								  content: "\f0d7";
-								  line-height: 20px;
-								  font-size: 11px;
-								  color: inherit;
-								}
-						</style>
-							<div class="form-group select-sm">
-								<select class="input-select" name="type" id="type">
-									<option value="registration-ask">등록 문의(비용, 결제 등)</option>
-									<option value="program-ask">교육 프로그램 문의</option>
-									<option value="etc-ask">기타 문의</option>
-								</select>
-							</div>
-
-							<div class="form-group">
-								<input class="form-control" type="text" name="name" placeholder="이름" data-validation="required" data-validation-error-msg="이름을 입력해 주세요" />
-							</div>
-
-							<div class="form-group">
-								<input class="form-control" type="email" name="email" placeholder="이메일 주소" data-validation="email" data-validation-error-msg="이메일 주소를 입력해 주세요" />
-							</div>
-
-							<div class="form-group">
-								<textarea class="form-control" cols="20" rows="3" name="message" placeholder="문의 내용" data-validation="required" data-validation-error-msg="내용을 입력해 주세요"></textarea>
-							</div>
-
-							<div class="form-group text-right text-left-xs">
-								<button type="submit" class="btn btn-simple-to-border btn-primary">문의하기</button>
-							</div>
-						</form>
 					</div>
 				</article>
 			</div>
