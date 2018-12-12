@@ -9,43 +9,64 @@
 
 <url>
   <loc>http://90factory.com/</loc>
-  <lastmod>2018-12-12T03:58:14+00:00</lastmod>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
   <loc>http://90factory.com/about.html</loc>
-  <lastmod>2018-12-12T03:58:14+00:00</lastmod>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://90factory.com/program.html</loc>
-  <lastmod>2018-12-12T03:58:14+00:00</lastmod>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://90factory.com/portfolio.html</loc>
-  <lastmod>2018-12-12T03:58:14+00:00</lastmod>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://90factory.com/registration.html</loc>
-  <lastmod>2018-12-12T03:58:14+00:00</lastmod>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://90factory.com/contact.html</loc>
-  <lastmod>2018-12-12T03:58:14+00:00</lastmod>
-  <priority>0.80</priority>
-</url>
-<url>
-  <loc>http://90factory.com/index.html</loc>
-  <lastmod>2018-12-12T03:58:14+00:00</lastmod>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>http://90factory.com/faq.html</loc>
-  <lastmod>2018-12-12T03:58:14+00:00</lastmod>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://90factory.com/index.html</loc>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://90factory.com/refund.html</loc>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://90factory.com/privacy.html</loc>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://90factory.com/about</loc>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
   <priority>0.64</priority>
 </url>
+<url>
+  <loc>http://90factory.com/lecture/blackhole_sample.pdf</loc>
+  <lastmod>2018-12-12T13:23:52+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+
 
 </urlset>
