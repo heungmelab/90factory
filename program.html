@@ -41,6 +41,9 @@
 
 		<link rel="stylesheet" href="css/bootstrap.min.css" />
 		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/vis-timeline-graph2d.min.css"  />
+
+
 		<!--[if lt IE 9]>
 			<script src="js/vendors/html5shiv.min.js"></script>
 		<![endif]-->
@@ -76,6 +79,18 @@
 			    height: auto; width: auto;
 			}
 
+		.table {
+		  border-spacing:5px; /* need some space ?*/
+		  display:table;
+		  table-layout:fixed;
+		  width:100%;
+		  }
+		.table div {
+		  display:table-cell;
+		  }
+		img {
+		  width:100%;
+		  }
 		</style>
 
 
@@ -168,11 +183,9 @@
 					<div class="row">
 						<div class="col-md-8 col-md-offset-2">
 							<h2>교육 프로그램</h2>
-							<h3 class="subtitle">구공팩토리 교육은 크게 세 단계로 구성됩니다.</h3>
+							<h3 class="subtitle">구공팩토리 교육은 크게 세 단계로 구성됩니다.</h3><br>
 						</div>
 					</div>
-					
-					<div class="divider type-1"></div>
 				</div>
 				
 				<!-- .row.action-list -->
@@ -180,7 +193,7 @@
 					<li role="presentation" class="col-lg-4 col-sm-6 bottom-space has-corner-line corner-anim active">
 						<a class="tab secondary-headline has-icon corner-anim" href="#concept" aria-controls="concept" role="tab" data-toggle="tab">
 							<i class="fa fa-campground"></i>
-							<h3 class="maintitle">기본기 다지기</h3>
+							<h3 class="maintitle" style="line-height:2em">웜홀 프로그램</h3>
 							<p class="subtitle">컴퓨터 구조와 프로그램 설계</p>
 							
 							<span class="corner corner-1"></span>
@@ -190,8 +203,8 @@
 					<li role="presentation" class="col-lg-4 col-sm-6 bottom-space has-corner-line corner-anim">
 						<a class="tab secondary-headline has-icon" href="#prototype" aria-controls="prototype" role="tab" data-toggle="tab">
 							<i class="fa fa-laptop-code"></i>
-							<h3 class="maintitle">프로젝트 코드 개발</h3>
-							<p class="subtitle">센서부터 모바일앱까지</p>
+							<h3 class="maintitle" style="line-height:2em">응용 프로그래밍</h3>
+							<p class="subtitle">프로젝트 핵심 기술 습득</p>
 							
 							<span class="corner corner-1"></span>
 							<span class="corner corner-2"></span>
@@ -200,8 +213,8 @@
 					<li role="presentation" class="col-lg-4 col-sm-6 bottom-space has-corner-line corner-anim">
 						<a class="tab secondary-headline has-icon" href="#development" aria-controls="development" role="tab" data-toggle="tab">
 							<i class="fa fa-cogs"></i>
-							<h3 class="maintitle">소프트웨어 테스팅</h3>
-							<p class="subtitle">단단한 프로그램 만들기</p>
+							<h3 class="maintitle" style="line-height:2em">실전 프로젝트</h3>
+							<p class="subtitle">잘 동작하는 결과물 만들기</p>
 							
 							<span class="corner corner-1"></span>
 							<span class="corner corner-2"></span>
@@ -215,72 +228,86 @@
 
 					<!-- #concept -->
 					<article class="row tab-pane in fade active" id="concept">
-						<div class="col-sm-6 col-md-4">
+						<div class="col-sm-8 col-md-8">
 							<div class="secondary-headline">
 								<h3 class="maintitle">웜홀 프로그램 [4주]</h3>
-								<p style="word-break: keep-all;">그 누구도 경험한 적 없는 혁신 프로그래밍 교육</p><br/>
-								<div class="subtitle" style="word-break: keep-all;"><span style="color: DarkRed;  font-weight: bold;">* 강의와 자기 학습 비중(3:7)으로,<br><br>&nbsp;&nbsp;&nbsp;하루 최대 3시간 강의만 진행
-								</div>
-								<a href="lecture/blackhole_sample.pdf"><br> &nbsp;&nbsp;&nbsp;[CLICK] 샘플 강의자료 다운</a><br><br>
-								자세한 커리큘럼 문의는 문의하기 게시판으로! :) 
+								<p style="word-break: keep-all;">모든 IT 기술을 관통하는 핵심 프로그래밍 원리 교육</p>
 							</div>
-
-							<div class="col-sm-6 col-md-12 subtitle">
-								<br/>
+							<div class="col-sm-6 col-md-12 subtitle" style="word-break: keep-all;" align="justify">
 								<b>블랙홀 과정</b><br/>
-								* 어떻게 만들었을까? (1부)<br/>
-								* 신기한 컴퓨터 구조<br/>
-								* 대화의 통로, 네트워크<br/>
-								* 프로그램의 어머니, 운영체제<br/> 
-								* 데이터 저장소, 데이터베이스<br/>
-								* 어떻게 만들었을까? (2부)<br/><br/>
+								<span style="color: DarkRed;">
+								* 무엇을? 왜? <br/>
+								</span>
+								* 컴퓨터의 깊은 부분까지 빨려 들어가면서 컴퓨터와 프로그램의 구조를 이해하는 과정<br/>
+								* 모든 기술은 나름의 존재 이유가 있다. 그것을 이해하는 것이 블랙홀 과정의 핵심<br/>
+								* 개발자를 위한 핵심 컴퓨터 구조 + 운영체제 + 네트워크 이론을 빠르게 짚어 보자 <br/><br/>
 							</div>
-							<div class="col-sm-6 col-md-12 subtitle">
+							<div class="col-sm-6 col-md-12 subtitle" style="word-break: keep-all;" align="justify">
 								<b>화이트홀 과정</b><br/>
-								* 프로그램을 만드는 방법<br/>
-								* 프로그래밍 언어론<br/>
-								* 프로그래밍 핵심 문법<br/>
-								* 더 좋은 프로그램을 위한 전략<br/>
-								* 어떻게 만들었을까? (3부)<br/>
-								* 이제, 어떻게 만들까?
+								<span style="color: DarkRed;">
+								* 어떻게?<br/>
+								</span>
+								* 프로그래밍 언어별 특성 이해하기<br/>
+								* 모든 언어를 관통하는 핵심 문법 이해<br/>
+								* '탄탄한' 프로그램 구조를 가능하게 하는 핵심 설계 철학과 원리<br/>
+								* '좋은' 프로그램을 위한 자료구조와 알고리즘 구현 방법<br/>
+								* 프로그램 유형별 개발 전략
+							</div>
+
+							<div class="col-sm-12 col-md-12 subtitle">
+								<br><br>
+									<div align="justify" class="subtitle" style="word-break: keep-all;"><span style="color: DarkRed;  font-weight: bold;">* 강의와 자기 학습 비중은 2:8 정도로, 하루 최대 3시간 강의만 진행</span>
+									</div>
+									<a href="lecture/blackhole_sample.pdf"><br>&nbsp;[CLICK] 샘플 강의자료 다운</a><br>
+									 
 							</div>
 						</div>
-						<div class="col-sm-6 col-md-6 subtitle">
-							<a href="lecture/blackhole_sample.pdf"><img class="port-image" src="images/blackhole_sample.png"><br></a>
+						<div class="col-sm-4 col-md-4">
+							<br>
+							<img class="port-image" src="images/blackhole.png">
 						</div>
-
 					</article>
 					
 					<!-- #prototype -->
 					<article class="row tab-pane fade" id="prototype">
 
-						<div class="col-sm-6 col-md-8">
-							<div class="secondary-headline">
-								<h3 class="maintitle">풀스택 개발 맛보기 [6주]</h3>
-								<p style="word-break: keep-all;">센서에서 모바일 앱까지</p><br/>
-								<p style="word-break: keep-all;">아래 프로세스는 비전공자 기준이며, 본인이 희망하는 언어가 있으면 그 언어를 프로젝트에 녹일 수 있도록 지원해 드립니다 :)</p><br/>
-							</div>
-							<div class="col-sm-6 col-md-4 subtitle">
-								<br/><div align="center" class="my-box">IoT 디바이스</div><li align="center" style="list-style: none;"><i class="fa fa-arrow-down"></i></li>
-								<div align="center" class="my-box">데이터베이스</div><li align="center" style="list-style: none;"><i class="fa fa-arrow-down"></i></li>
-								<div align="center" class="my-box">웹 서버</div><li align="center" style="list-style: none;"><i class="fa fa-arrow-down"></i></li>
-								<div align="center" class="my-box">웹 페이지</div><li align="center" style="list-style: none;"><i class="fa fa-arrow-down"></i></li>
-								<div align="center" class="my-box">모바일 웹앱</div><br/>																							
+						<div class="col-sm-12 col-md-12">
+							<div class="secondary-headline" align="justify">
+								<h3 class="maintitle">핵심 응용 프로그래밍 기술 [2주]</h3>
+								<p style="word-break: keep-all;">프로젝트 진행에 필요한 핵심 기술을 학습하는 기간(필요 부분만 개별적으로)<br><br>
+								<b>구공팩토리 수강 목적과 진로에 맞는 프로젝트를 함께 고민하고, 프로젝트 진행에 필요한 핵심 기술을 배우는 단계</b><br>
+								&nbsp;* 웹 개발자가 되고 싶다면? 클라이언트 + 서버 + 데이터베이스<br>
+								&nbsp;* 모바일 개발자가 되고 싶다면? 서버 + 응용프로그램(app) + 데이터베이스  <br>
+								&nbsp;* 임베디드 개발자가 되고 싶다면? 응용프로그램 + 운영체제<br>
+								&nbsp;* 빅데이터 개발자가 되고 싶다면? 응용프로그램 + 데이터베이스<br>
+								&nbsp;* 인공지능 개발자가 되고 싶다면? 응용프로그램 기술보다는 알고리즘<br>
+								</p>
 							</div>
 
-							<div class="col-sm-6 col-md-8 subtitle">
-								<b>IoT 디바이스</b><br/>
-								* 아두이노 센서 프로그래밍: 하드웨어를 제어하는 기술<br/><br/>
-								<b>데이터베이스(MongoDB)</b><br/>
-								* 센서와 서버의 중간 다리: 데이터를 저장하고 다루는 기술<br/><br/>
-								<b>웹 서버(node.js)</b><br/>
-								* 프로그램과 서비스: 프로그램을 인터넷으로 공유하기 위한 기술<br/><br/>
-								<b>웹 페이지(angular)</b><br/>
-								* 사용자와 소통: 결국엔 사용자가 모든 것을 결정한다<br/><br/>
-								<b>모바일 웹 앱(ionic)</b><br/>
-								* 최종 목적지. 모바일: 사용자에겐 웹보다 더 친숙한 모바일 환경<br/>
+							<div class="col-sm-6 col-md-6 subtitle" style="word-break: keep-all;" align="justify">
+								<br>
+								<b>클라이언트측 코드</b><br/>
+								* 인터넷 브라우저에 표현되는 부분으로, 사용자와 가장 가까이에 위치한 코드(front-end)<br>
+								* Javascript + CSS + HTML<br/><br/>
+								<b>서버측 코드</b><br/>
+								* 웹 서버의 핵심 로직을 담고 있는 코드로, 화면 처리, 비즈니스 로직, 데이터베이스 연동을 수행<br>
+								* JSP / PHP / Node.js / Django<br/><br/>
+								<b>응용프로그램</b><br/>
+								* 윈도우 프로그램: 윈도우 환경에서 동작하는 일반 응용 프로그램(미디어 플레이어, 계산기, 문서 편집기 등)<br>
+								* 모바일 앱: 모바일에서 동작하는 응용 프로그램(생활정보, 게임, 일정 관리 등)<br>
+								* 선택한 언어와 운영체제 유형에 맞는 기술을 학습<br/><br/>
+								<b>데이터베이스</b><br/>
+								* 프로그램에서 필요한 데이터를 저장하는 기술이자 공간<br/>
+								* MySQL / MSSQL / MongoDB / Elasticsearch / Redis<br/><br/>
+								<b>운영체제</b><br/>
+								* 운영체제와 긴밀한 관계를 가지는 시스템 프로그램 개발(백신 프로그램, 작업 관리자, 모니터링 도구)<br>
+								<br/>
 							</div>
-				
+								
+							<div class="col-sm-6 col-md-6" align="right">
+								<br><br>
+								<img class="port-image"  src="images/fullstack.png">
+							</div>
 						</div>
 					</article>
 					
@@ -288,23 +315,62 @@
 					<article class="row tab-pane fade" id="development">
 						<div class="col-sm-6 col-md-8">
 							<div class="secondary-headline">
-								<h3 class="maintitle">디버깅과 테스팅 [2주]</h3>
-								<p style="word-break: keep-all;">문제 없이 '잘' 돌아가는 프로그램을 만드는 방법</p>
+								<h3 class="maintitle">실전 프로젝트 [6주]</h3>
+								<p style="word-break: keep-all;">'잘 돌아가는' 하나의 완성된 성과물을 만드는 과정</p>
 							</div>
 
-							<div class="subtitle">
-								<b>디버깅</b><br/>
-								* 개발자의 멘탈을 붕괴하고 고객을 떠나게 하는 버그 잡기<br/><br/>
-								<b>테스팅</b><br/>
-								* 개발자가 예측하지 못한 상황은 없을까?<br/>
-								* 사용자 폭주와 대용량 데이터를 견뎌내는 기술<br/><br/>
-								<b>리팩토링</b><br/>
-								* 이해하기 쉽고, 수정하기 쉬운 프로그램을 만드는 방법<br/><br/>
+							<div class="subtitle" align="justify" style="word-break: keep-all;">
+								<b>프로젝트 진행 과정</b><br/>
+								* 계획(WHAT): 프로젝트 주제 및 범위 선정 / 작업 백로그 작성 / 역할 분담<br/>
+								* 설계(HOW): 프로젝트 아키텍처 / 기능 구조 / 데이터베이스 설계 (완벽한 설계는 없다)<br/>
+								* 개발(DO): 각자 맡은 부분을 '공부'하면서 만들어 나가는 단계 (공부도 태스크다)<br/>
+								* 통합(TEST): 서로의 결과물을 통합하면서 검증하고 - 조정하고 - 개선하기 <br/>
+								<br/>
+								<b>진행은 애자일하게</b><br/>
+								* 우리의 목표는 <span style="color: DarkRed;">'작동하는 결과물'</span>을 만드는 것이다!<br/>
+								* 6주 간의 프로젝트를 위해 개발된 구공팩토리만의 맞춤형 개발 방법론<br />
+								* 내가 무엇을 할 수 있고, 무엇이 부족한지 알아가는 과정
+								<br/><br/>
+								<b>스크럼 보드</b><br/>
+								* 무엇을? 언제? 어떻게?<br/>
+								* 전체 프로젝트 진행 상황과 나의 역할을 이해하고 추적하는 프로젝트 현황판<br/>
+								<br/>
+							</div>
+
+							<div class="table">
+								<div><img src="images/pics/scrum1.gif"></div>
+								<div><img src="images/pics/scrum2.gif"></div>
+								<div><img src="images/pics/scrum3.gif"></div>
 							</div>
 						</div>
+
+						<div class="col-sm-6 col-md-4" align="center">
+							<br><br>
+							<img class="port-image"  src="images/process.png">
+							</div>
 					</article>
 				</section>
+
+
+				<br>
+				<br><div class="divider type-1"></div><br>
+				<div class="section-header large-title text-center">
+					<div class="row">
+						<br>
+						<div class="col-md-8 col-md-offset-2">
+							<h2>교육 일정</h2>
+							상하좌우로 움직여 보세요. 확대도 가능!<br><br>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-12" >
+					<div id="visualization"></div>
 			</div>
+		</section>
+
+		<section>
+
+
 		</section>
 		<!-- /.section -->	
 
@@ -346,6 +412,7 @@
 
 			<!-- .bottom -->
 			<div class="bottom">
+
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-6 copyright text-center-xs">
@@ -378,9 +445,110 @@
 		<script src="js/vendors/jquery.matchHeight-min.js"></script>
 		<!-- Custom select -->
 		<script src="js/vendors/jquery.selectric.min.js"></script>
+		<!-- Timeline -->
+		<script src="js/vendors/vis.js"></script>
+		<style>
+		    .vis-item.vis-background.application {
+  				background-color: rgba(0, 255, 0, 0.2);
+    		}
+			.vis-item.vis-background.project {
+  				background-color: rgba(255, 215, 0, 0.2);
+    		}
+
+    		.vis-item.application {
+    			border-color: rgb(0, 255, 0);
+   				background-color: rgba(0, 255, 0, 0.2);
+
+    		}
+    		.vis-item.project {
+    			border-color: rgb(255, 215, 0);
+   				background-color: rgba(255, 215, 0, 0.2);
+    		}
+		</style>
+		<script>
+
+		var groups = new vis.DataSet([
+			{id: 0, content: '강의 내용', value: 1},
+			{id: 2, content: '개인 학습', value: 3}
+			]);
+
+		var items = new vis.DataSet([
+		{id: 'A', content: '웜홀 주간', start: '2019-04-29', end: '2019-05-26', type: 'background'},
+		{id: 'B', content: '응용 주간', start: '2019-05-27', end: '2019-06-09', type: 'background', className: 'application'},
+		{id: 'C', content: '프로젝트 주간', start: '2019-06-10', end: '2019-07-19', type: 'background', className: 'project'},
+
+		{id: 1, group: 0, content: '오리엔테이션', start: '2019-04-29'},
+		{id: 0, group: 2, content: '언어 기본서 학습', start: '2019-04-29', end: '2019-05-24'},
+		{id: 2, group: 0, content: '컴퓨터 구조와 프로그램', start: '2019-04-30'},
+		{id: 3, group: 0, content: '운영체제', start: '2019-05-02'},
+		{id: 4, group: 0, content: '네트워크', start: '2019-05-04'},
+		{id: 5, group: 0, content: '프로그램 개발 이해', start: '2019-05-06'},
+		{id: 6, group: 0, content: '프로그래밍 핵심 문법', start: '2019-05-08'},
+		{id: 7, group: 0, content: '자료구조와 알고리즘', start: '2019-05-18'},
+		{id: 8, group: 0, content: '프로젝트 계획', start: '2019-05-27', className: 'application'},
+		{id: 9, group: 0, content: '핵심 응용 프로그래밍 기술', start: '2019-06-01', className: 'application'},
+		{id: 10, group: 2, content: '못다한 과제 완료', start: '2019-05-27', end: '2019-06-09', className: 'application'},
+		{id: 11, group: 2, content: '설계', start: '2019-06-12', className: 'project'},
+		{id: 12, group: 0, content: '스프린트1', start: '2019-06-10', className: 'project'},
+		{id: 13, group: 0, content: '스프린트2', start: '2019-06-17', className: 'project'},
+		{id: 14, group: 0, content: '스프린트3', start: '2019-06-24', className: 'project'},
+		{id: 15, group: 0, content: '스프린트4', start: '2019-07-01', className: 'project'},
+		{id: 16, group: 0, content: '스프린트5', start: '2019-07-08', className: 'project'},
+		{id: 17, group: 0, content: '스프린트6', start: '2019-07-15', className: 'project'},
+		{id: 18, group: 2, content: '개발 착수', start: '2019-06-19', className: 'project'},
+		{id: 19, group: 2, content: '통합', start: '2019-07-01', className: 'project'},
+		{id: 20, group: 2, content: '개선', start: '2019-07-15', className: 'project'},
+		]);
+
+		function customOrder (a, b) {
+			return a.id - b.id;
+		}
+		var container = document.getElementById('visualization');
+		var options = {
+				start: '2019-04-29',
+				end: '2019-07-19',
+				editable: false,
+				height: 500,
+				order: customOrder,
+				groupOrder: function (a, b) {
+					return a.value - b.value;
+				}
+		};
+
+		var timeline = new vis.Timeline(container, items, options);
+		timeline.setGroups(groups);
+
+
+</script>
 		<!-- Bar rating -->
 		<script src="js/vendors/jquery.barrating.min.js"></script>
 
+		<!-- gif.js -->
+		<script src="js/vendors/gif.js"></script>
+
+		<script>
+
+		imageElement = document.getElementByClassName("scrum");
+		var gif = new GIF({
+		  workers: 2,
+		  quality: 10
+		});
+
+		// add an image element
+		gif.addFrame(imageElement);
+
+		// or a canvas element
+		gif.addFrame(canvasElement, {delay: 200});
+
+		// or copy the pixels from a canvas context
+		gif.addFrame(ctx, {copy: true});
+
+		gif.on('finished', function(blob) {
+		  window.open(URL.createObjectURL(blob));
+		});
+
+		gif.render();
+		</script>
 		
 		<!-- Custom JS -->
 		<script src="js/script.min.js"></script>

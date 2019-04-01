@@ -165,7 +165,7 @@
 							</div>
 
 							<div class="form-group">
-								<input class="form-control" type="text" name="name" placeholder="이름" data-validation="required" data-validation-error-msg="이름을 입력해 주세요" />
+								<input class="form-control" type="text" name="name" placeholder="이름" data-validation="length" data-validation-length="1-5" data-validation-error-msg="이름을 입력해 주세요" />
 							</div>
 
 							<div class="form-group">
@@ -173,7 +173,7 @@
 							</div>
 
 							<div class="form-group">
-								<textarea class="form-control" cols="20" rows="3" name="message" placeholder="문의 내용" data-validation="required" data-validation-error-msg="내용을 입력해 주세요"></textarea>
+								<textarea class="form-control" cols="20" rows="3" name="message" placeholder="문의 내용" data-validation="letternumeric" type="text" data-validation-error-msg="내용을 입력해 주세요"></textarea>
 							</div>
 
 							<div class="form-group text-right text-left-xs">
@@ -245,6 +245,24 @@
 		<script src="js/vendors/bootstrap.min.js"></script>
 		<!-- Form validation -->
 		<script src="js/vendors/jquery.form-validator.min.js"></script>
+		<script src="js/vendors/security.js"></script>
+
+		<script>
+  $.validate({
+	    modules : 'security',
+	    onModulesLoaded : function() {
+	 
+	      // Show strength of password
+	      $('input[name="pass_confirmation"]').displayPasswordStrength();
+	 
+	      // Bind card type to card number validator
+	      $('#card').on('change', function() {
+	        var card = $(this).val();
+	        $('input[name="ccard_num"]').attr('data-validation-allowing', card);
+	      });
+	    }
+	  });
+</script>
 		<!-- Viewport checker -->
 		<script src="js/vendors/jquery.viewportchecker.min.js"></script>
 		<!-- Filter and sort layouts -->
